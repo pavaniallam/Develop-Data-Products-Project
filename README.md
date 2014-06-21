@@ -32,6 +32,22 @@ The Shiny application in question is entirely up to you. However, if you're havi
 
 #### Reproducible Pitch Presentation
 
+##### Solution
+
+The Slidy presentation is within the "presentation" directory.
+
+http://nickwallen.github.io/devdataprod-project/#1
+
+The presentation can be published to Github with the following command.  Ensure that SSH access has been established to Github using these instructions; 
+
+https://help.github.com/articles/error-permission-denied-publickey.
+
+```
+publish(user = "nickwallen", repo = "devdataprod-project")
+```
+
+##### Instructions
+
 OK, you've made your shiny app, now it's time to make your pitch. You get 5 slides (inclusive of the title slide)  to pitch a your app. You're going to create a web page using Slidify with an html5 slide deck.
 
 Here's what you need.
