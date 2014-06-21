@@ -1,0 +1,48 @@
+---
+title       : Developing Data Products - Project 1
+subtitle    : 
+author      : Nick Allen
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Purpose
+
+```{r, echo=FALSE, message=FALSE}
+library (ggplot2)
+```
+
+The application's purpose is to enable simple exploration of bivariate relationships in the 'mtcars' data set.  
+
+* Motor Trend Car Road Tests
+* A data frame with 32 observations on 11 variables.
+* The 'mtcars' data set is available within the base R installation.
+
+--- .class #id 
+
+## Data Fields
+
+```{r}
+str (mtcars)
+```
+
+--- .class #id 
+
+## Example Bivariate Relationship
+
+```{r}
+ggplot (mtcars, aes (wt, mpg)) + geom_point() + geom_smooth (method = "loess")
+```
+
+--- .class #id 
+
+## Application Link
+
+Check out the app yourself!
+
+* https://farsite.shinyapps.io/Project1/
