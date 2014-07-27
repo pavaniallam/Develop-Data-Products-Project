@@ -44,6 +44,7 @@ https://help.github.com/articles/error-permission-denied-publickey.
 
 ```
 publish(user = "nickwallen", repo = "devdataprod-project")
+
 ```
 
 ##### Instructions
